@@ -4,6 +4,7 @@
 
 [![pub package](https://img.shields.io/pub/v/markstream.svg)](https://pub.dev/packages/markstream)
 [![Package checks](https://github.com/Chevey339/markstream/actions/workflows/ci.yml/badge.svg)](https://github.com/Chevey339/markstream/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 [English](README.md) · [pub.dev](https://pub.dev/packages/markstream) ·
 [使用指南](doc/guide.md) · [示例](example/README.md) ·
@@ -53,7 +54,7 @@ flutter pub add markstream
 
 ```yaml
 dependencies:
-  markstream: ^0.1.0
+  markstream: ^0.1.1
 ```
 
 要求 Flutter **3.44.9+**、Dart **3.12.1+**（低于 4.0.0）。
@@ -142,5 +143,6 @@ Kelivo 继续使用自己的本地副本，两边按需同步，详见 [来源�
 
 ## 许可证
 
-沿用原项目的 [AGPL-3.0](LICENSE)。第三方材料保留各自许可证，见
+从 **0.1.1** 起，独立库采用 [MIT 许可证](LICENSE)。项目自有代码可以用于商业和闭源应用，
+允许修改与再分发，使用时需保留版权声明和许可证。第三方材料保留各自许可证，见
 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。

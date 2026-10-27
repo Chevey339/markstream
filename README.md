@@ -4,7 +4,7 @@
 
 [![pub package](https://img.shields.io/pub/v/markstream.svg)](https://pub.dev/packages/markstream)
 [![Package checks](https://github.com/Chevey339/markstream/actions/workflows/ci.yml/badge.svg)](https://github.com/Chevey339/markstream/actions/workflows/ci.yml)
-[![License: AGPL v3](https://img.shields.io/badge/license-AGPL--3.0-blue.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 [中文](README_ZH_CN.md) · [pub.dev](https://pub.dev/packages/markstream) ·
 [Guide](doc/guide.md) · [Example](example/README.md) ·
@@ -73,7 +73,7 @@ Or add a version constraint:
 
 ```yaml
 dependencies:
-  markstream: ^0.1.0
+  markstream: ^0.1.1
 ```
 
 Requires Flutter **3.44.9+** and Dart **3.12.1+** (below 4.0.0).
@@ -226,5 +226,7 @@ bug reports are welcome on [GitHub](https://github.com/Chevey339/markstream/issu
 
 ## License
 
-[GNU AGPL version 3](LICENSE). Third-party data and test fixtures retain their
-own licenses; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+[MIT](LICENSE), starting with version 0.1.1. You can use, modify, and distribute
+the project-authored code in commercial and closed-source applications while
+retaining the copyright and license notice. Third-party data and test fixtures
+retain their own licenses; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).

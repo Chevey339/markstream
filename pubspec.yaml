@@ -1,6 +1,6 @@
 name: markstream
 description: Streaming Markdown for Flutter with rich text, tables, code, math syntax, native HTML, source-aware selection, themes, and custom renderers.
-version: 0.1.0
+version: 0.1.1
 homepage: https://github.com/Chevey339/markstream
 repository: https://github.com/Chevey339/markstream
 issue_tracker: https://github.com/Chevey339/markstream/issues

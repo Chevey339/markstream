@@ -17,8 +17,13 @@ The source package had no uncommitted changes at extraction.
 The standalone checkout has its own Git
 repository; it is not a linked worktree, submodule, or symlink into Kelivo.
 
-The repository root's `LICENSE` was copied unchanged from Kelivo (GNU AGPL
-version 3). Existing third-party notices were retained. No relicensing was done.
+Version 0.1.0 initially copied Kelivo's GNU AGPL version 3 license. Starting
+with version 0.1.1, Psyche (Chevey339) licenses the standalone project's own
+code and documentation under MIT. The owner authorized this change on
+2026-10-27. Existing third-party notices and licenses are retained.
+
+The published 0.1.0 archive and tag retain their original license text; they
+are not rewritten. Kelivo's repository license and local package are unchanged.
 
 ## Extraction-specific changes
 

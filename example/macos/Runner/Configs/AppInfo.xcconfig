@@ -11,4 +11,4 @@ PRODUCT_NAME = markstream_example
 PRODUCT_BUNDLE_IDENTIFIER = com.example.markstreamExample
 
 // The copyright displayed in application information
-PRODUCT_COPYRIGHT = Copyright © 2026 Markstream contributors. Licensed under AGPL-3.0.
+PRODUCT_COPYRIGHT = Copyright © 2026 Psyche (Chevey339). Licensed under MIT.

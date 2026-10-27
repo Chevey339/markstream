@@ -1,3 +1,10 @@
+## 0.1.1
+
+- License the standalone project's own code and documentation under MIT.
+- Retain the existing licenses and notices for third-party data and test fixtures.
+- Update license badges, usage documentation, and example attribution.
+- No changes to the parser, rendering, selection, or public APIs.
+
 ## 0.1.0
 
 - Extract the existing Markdown package into a standalone Flutter repository.

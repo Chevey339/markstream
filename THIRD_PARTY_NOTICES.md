@@ -1,5 +1,9 @@
 # Third-party notices
 
+The standalone project's own code and documentation use the MIT license in
+`LICENSE`. The third-party materials below retain their original licenses;
+they are not relicensed by the project-wide license change.
+
 ## Benchmark font
 
 `test/fixtures/fonts/JetBrainsMono-Regular.ttf` is the unmodified JetBrains Mono
@@ -8,6 +12,8 @@ and copyright notice are retained in
 `test/fixtures/fonts/JetBrainsMono-OFL.txt`; provenance and the file hash are in
 `test/fixtures/fonts/README.md`. The font is used only by repository benchmarks
 and is excluded from the published package by `.pubignore`.
+
+## WHATWG named character references
 
 `lib/src/core/html/named_entities.dart` is generated from the WHATWG HTML
 named character references table at <https://html.spec.whatwg.org/entities.json>.
