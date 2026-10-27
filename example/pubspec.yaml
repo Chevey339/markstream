@@ -1,0 +1,22 @@
+name: markstream_example
+description: "A standalone Markdown streaming and selection example for markstream."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: '>=3.12.1 <4.0.0'
+  flutter: '>=3.44.9'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  markstream:
+    path: ../
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

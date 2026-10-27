@@ -1,0 +1,8 @@
+.dart_tool/
+build/
+coverage/
+.flutter-plugins-dependencies
+.DS_Store
+.idea/
+*.iml
+__pycache__/
