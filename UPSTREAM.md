@@ -33,7 +33,7 @@ version 3). Existing third-party notices were retained. No relicensing was done.
   the original app-adjusted benchmark; renderer implementation is unchanged.
 - `test/flutter/streaming_text_test.dart` uses `MARKSTREAM_VISUAL_FONT` and
   `MARKSTREAM_VISUAL_EMOJI_FONT` for optional external visual-test fonts.
-- `publish_to: none` stays in place while this is an unpublished local project.
+- Release metadata points to the standalone GitHub repository and pub.dev package.
 
 ## Independent maintenance
 
@@ -69,8 +69,8 @@ not an automatic synchronization process.
 
 ## Preparing an external release
 
-Create the actual remote repository before adding its URL to `pubspec.yaml`.
-If publishing to pub.dev, verify the package name and final metadata, remove
-`publish_to: none`, and run `flutter pub publish --dry-run`. Resolve its findings
-before an intentional publish. No remote URL or publication is assumed by this
-checkout. See the [official publishing guide](https://dart.dev/tools/pub/publishing).
+The standalone repository is <https://github.com/Chevey339/markstream> and the
+package is published as `markstream`. Update `pubspec.yaml` and `CHANGELOG.md`,
+run the package and example checks, then run `flutter pub publish --dry-run`.
+Publish with `flutter pub publish` and create a matching `v<version>` Git tag
+and GitHub release. See the [official publishing guide](https://dart.dev/tools/pub/publishing).

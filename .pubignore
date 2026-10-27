@@ -8,8 +8,9 @@ coverage/
 .idea/
 *.iml
 __pycache__/
-UPSTREAM.md
 test/
 tool/
 pubspec.lock
 example/pubspec.lock
+example/macos/
+example/web/

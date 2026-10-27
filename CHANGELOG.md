@@ -6,5 +6,5 @@
 - Make performance benchmarks self-contained with local documents and font data.
 - Add a runnable macOS/Web example with editing, streaming, and Markdown copy.
 - Add independent CI, setup documentation, licensing, and maintenance provenance.
-
-This version is local and has not been published to pub.dev.
+- Document the supported syntax, renderer adapters, source-aware selection,
+  streaming behavior, customization points, and platform validation.
